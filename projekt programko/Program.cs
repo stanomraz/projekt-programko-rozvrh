@@ -1,9 +1,4 @@
-﻿using Internal;
-using System;
-using System.Collections.Generic;
-using System.IO;
-
-StreamReader ATrozvrhReader = new StreamReader("");
+﻿StreamReader ATrozvrhReader = new StreamReader("");
 StreamReader AIrozvrhReader = new StreamReader("");
 StreamReader AMrozvrhReader = new StreamReader("");
 StreamReader AErozvrhReader = new StreamReader("");
