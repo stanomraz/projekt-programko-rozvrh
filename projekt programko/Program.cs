@@ -25,6 +25,5 @@ while (true)
     //s ifkami spravit pristup ku konkretnym datam
 
 
-
     Console.ReadKey();
 }
