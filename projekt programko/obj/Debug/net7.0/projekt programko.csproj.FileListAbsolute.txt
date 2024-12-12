@@ -1,0 +1,15 @@
+/Users/rechtphl/Documents/skola spsit/remis programko/projekt programko/projekt-programko-rozvrh/projekt programko/bin/Debug/net7.0/projekt programko
+/Users/rechtphl/Documents/skola spsit/remis programko/projekt programko/projekt-programko-rozvrh/projekt programko/bin/Debug/net7.0/projekt programko.deps.json
+/Users/rechtphl/Documents/skola spsit/remis programko/projekt programko/projekt-programko-rozvrh/projekt programko/bin/Debug/net7.0/projekt programko.runtimeconfig.json
+/Users/rechtphl/Documents/skola spsit/remis programko/projekt programko/projekt-programko-rozvrh/projekt programko/bin/Debug/net7.0/projekt programko.dll
+/Users/rechtphl/Documents/skola spsit/remis programko/projekt programko/projekt-programko-rozvrh/projekt programko/bin/Debug/net7.0/projekt programko.pdb
+/Users/rechtphl/Documents/skola spsit/remis programko/projekt programko/projekt-programko-rozvrh/projekt programko/obj/Debug/net7.0/projekt programko.csproj.AssemblyReference.cache
+/Users/rechtphl/Documents/skola spsit/remis programko/projekt programko/projekt-programko-rozvrh/projekt programko/obj/Debug/net7.0/projekt programko.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rechtphl/Documents/skola spsit/remis programko/projekt programko/projekt-programko-rozvrh/projekt programko/obj/Debug/net7.0/projekt programko.AssemblyInfoInputs.cache
+/Users/rechtphl/Documents/skola spsit/remis programko/projekt programko/projekt-programko-rozvrh/projekt programko/obj/Debug/net7.0/projekt programko.AssemblyInfo.cs
+/Users/rechtphl/Documents/skola spsit/remis programko/projekt programko/projekt-programko-rozvrh/projekt programko/obj/Debug/net7.0/projekt programko.csproj.CoreCompileInputs.cache
+/Users/rechtphl/Documents/skola spsit/remis programko/projekt programko/projekt-programko-rozvrh/projekt programko/obj/Debug/net7.0/projekt programko.dll
+/Users/rechtphl/Documents/skola spsit/remis programko/projekt programko/projekt-programko-rozvrh/projekt programko/obj/Debug/net7.0/refint/projekt programko.dll
+/Users/rechtphl/Documents/skola spsit/remis programko/projekt programko/projekt-programko-rozvrh/projekt programko/obj/Debug/net7.0/projekt programko.pdb
+/Users/rechtphl/Documents/skola spsit/remis programko/projekt programko/projekt-programko-rozvrh/projekt programko/obj/Debug/net7.0/projekt programko.genruntimeconfig.cache
+/Users/rechtphl/Documents/skola spsit/remis programko/projekt programko/projekt-programko-rozvrh/projekt programko/obj/Debug/net7.0/ref/projekt programko.dll
