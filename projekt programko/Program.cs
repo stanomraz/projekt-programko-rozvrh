@@ -123,12 +123,37 @@ while (true)
 {
     Console.WriteLine("Zadaj triedu (at/ai/am/ae):");
     string zvolenaTrieda = Console.ReadLine();
+
+    if (zvolenaTrieda != "at" && zvolenaTrieda != "ai" && zvolenaTrieda != "am" && zvolenaTrieda != "ae")
+    {
+        Console.WriteLine("zadal si zlu moznost - program konci");
+        Thread.Sleep(2000);
+        break;
+    }
+
+
     Console.WriteLine("Zadaj den (po/ut/st/št/pi):");
     string zvolenyDen = Console.ReadLine();
+
+    if (zvolenyDen != "po" && zvolenyDen != "ut" && zvolenyDen != "st" && zvolenyDen != "št" && zvolenyDen != "pi")
+    {
+        Console.WriteLine("zadal si zlu moznost - program konci");
+        Thread.Sleep(2000);
+        break;
+    }
+
+
     Console.WriteLine("Zadaj hodinu (1-8):");
     int zvolenaHodina = Convert.ToInt32(Console.ReadLine());
-    int indexDna = 0;
 
+    if (zvolenaHodina <= 0 || zvolenaHodina > 8)
+    {
+        Console.WriteLine("zadal si zlu moznost - program konci");
+        Thread.Sleep(2000);
+        break;
+    }
+
+    int indexDna = 0;
     if (zvolenyDen == "po")
     {
         indexDna = 0;
@@ -153,6 +178,7 @@ while (true)
 
     if (zvolenaTrieda == "at")
     {
+        Console.WriteLine("...");
         for (int i = 0; i < ATrozvrh.Length; i++)
         {
             string output = "";
@@ -162,11 +188,12 @@ while (true)
             }
             Console.WriteLine(output.TrimEnd(';'));
         }
-        Console.WriteLine();
+        Console.WriteLine("...");
         Console.WriteLine(ATrozvrh[indexDna][zvolenaHodina - 1]);
     }
     else if (zvolenaTrieda == "ai")
     {
+        Console.WriteLine("...");
         for (int i = 0; i < AIrozvrh.Length; i++)
         {
             string output = "";
@@ -176,11 +203,12 @@ while (true)
             }
             Console.WriteLine(output.TrimEnd(';'));
         }
-        Console.WriteLine();
+        Console.WriteLine("...");
         Console.WriteLine(AIrozvrh[indexDna][zvolenaHodina - 1]);
     }
     else if (zvolenaTrieda == "am")
     {
+        Console.WriteLine("...");
         for (int i = 0; i < AMrozvrh.Length; i++)
         {
             string output = "";
@@ -190,11 +218,12 @@ while (true)
             }
             Console.WriteLine(output.TrimEnd(';'));
         }
-        Console.WriteLine();
+        Console.WriteLine("...");
         Console.WriteLine(AMrozvrh[indexDna][zvolenaHodina - 1]);
     }
     else if (zvolenaTrieda == "ae")
     {
+        Console.WriteLine("...");
         for (int i = 0; i < AErozvrh.Length; i++)
         {
             string output = "";
@@ -204,7 +233,7 @@ while (true)
             }
             Console.WriteLine(output.TrimEnd(';'));
         }
-        Console.WriteLine();
+        Console.WriteLine("...");
         Console.WriteLine(AErozvrh[indexDna][zvolenaHodina - 1]);
     }
 
