@@ -29,8 +29,6 @@ while (true)
 {
     string obsah = ATrozvrhReader.ReadLine();
 
-
-
     if (obsah == null)
     {
         break;
@@ -50,8 +48,6 @@ riadok = 0;
 while (true)
 {
     string obsah = AIrozvrhReader.ReadLine();
-
-
 
     if (obsah == null)
     {
@@ -73,8 +69,6 @@ while (true)
 {
     string obsah = AMrozvrhReader.ReadLine();
 
-
-
     if (obsah == null)
     {
         break;
@@ -94,8 +88,6 @@ riadok = 0;
 while (true)
 {
     string obsah = AErozvrhReader.ReadLine();
-
-
 
     if (obsah == null)
     {
@@ -130,6 +122,11 @@ while (true)
         Thread.Sleep(2000);
         break;
     }
+    else if (zvolenaTrieda == "break")
+    {
+        Console.WriteLine("program konci");
+        break;
+    }
 
 
     Console.WriteLine("Zadaj den (po/ut/st/št/pi):");
@@ -139,6 +136,11 @@ while (true)
     {
         Console.WriteLine("zadal si zlu moznost - program konci");
         Thread.Sleep(2000);
+        break;
+    }
+    else if (zvolenyDen == "break")
+    {
+        Console.WriteLine("program konci");
         break;
     }
 
@@ -188,8 +190,24 @@ while (true)
             }
             Console.WriteLine(output.TrimEnd(';'));
         }
-        Console.WriteLine("...");
-        Console.WriteLine(ATrozvrh[indexDna][zvolenaHodina - 1]);
+        if (zvolenaHodina - 1 >= ATrozvrh[indexDna].Count)
+        {
+            Console.WriteLine("...");
+            Thread.Sleep(1000);
+            Console.WriteLine("tato hodina v tento den neni");
+            Console.WriteLine("...");
+            Thread.Sleep(1000);
+            Console.WriteLine("stlac enter pre pokracovanie");
+        }
+        else
+        {
+            Console.WriteLine("...");
+            Thread.Sleep(1000);
+            Console.WriteLine(ATrozvrh[indexDna][zvolenaHodina - 1]);
+            Console.WriteLine("...");
+            Thread.Sleep(1000);
+            Console.WriteLine("stlac enter pre pokracovanie");
+        }
     }
     else if (zvolenaTrieda == "ai")
     {
@@ -203,8 +221,24 @@ while (true)
             }
             Console.WriteLine(output.TrimEnd(';'));
         }
-        Console.WriteLine("...");
-        Console.WriteLine(AIrozvrh[indexDna][zvolenaHodina - 1]);
+        if (zvolenaHodina - 1 >= AIrozvrh[indexDna].Count)
+        {
+            Console.WriteLine("...");
+            Thread.Sleep(1000);
+            Console.WriteLine("tato hodina v tento den neni");
+            Console.WriteLine("...");
+            Thread.Sleep(1000);
+            Console.WriteLine("stlac enter pre pokracovanie");
+        }
+        else
+        {
+            Console.WriteLine("...");
+            Thread.Sleep(1000);
+            Console.WriteLine(AIrozvrh[indexDna][zvolenaHodina - 1]);
+            Console.WriteLine("...");
+            Thread.Sleep(1000);
+            Console.WriteLine("stlac enter pre pokracovanie");
+        }
     }
     else if (zvolenaTrieda == "am")
     {
@@ -218,8 +252,24 @@ while (true)
             }
             Console.WriteLine(output.TrimEnd(';'));
         }
-        Console.WriteLine("...");
-        Console.WriteLine(AMrozvrh[indexDna][zvolenaHodina - 1]);
+        if (zvolenaHodina - 1 >= AMrozvrh[indexDna].Count)
+        {
+            Console.WriteLine("...");
+            Thread.Sleep(1000);
+            Console.WriteLine("tato hodina v tento den neni");
+            Console.WriteLine("...");
+            Thread.Sleep(1000);
+            Console.WriteLine("stlac enter pre pokracovanie");
+        }
+        else
+        {
+            Console.WriteLine("...");
+            Thread.Sleep(1000);
+            Console.WriteLine(AMrozvrh[indexDna][zvolenaHodina - 1]);
+            Console.WriteLine("...");
+            Thread.Sleep(1000);
+            Console.WriteLine("stlac enter pre pokracovanie");
+        }
     }
     else if (zvolenaTrieda == "ae")
     {
@@ -233,8 +283,24 @@ while (true)
             }
             Console.WriteLine(output.TrimEnd(';'));
         }
-        Console.WriteLine("...");
-        Console.WriteLine(AErozvrh[indexDna][zvolenaHodina - 1]);
+        if (zvolenaHodina - 1 >= AErozvrh[indexDna].Count)
+        {
+            Console.WriteLine("...");
+            Thread.Sleep(1000);
+            Console.WriteLine("tato hodina v tento den neni");
+            Console.WriteLine("...");
+            Thread.Sleep(1000);
+            Console.WriteLine("stlac enter pre pokracovanie");
+        }
+        else
+        {
+            Console.WriteLine("...");
+            Thread.Sleep(1000);
+            Console.WriteLine(AErozvrh[indexDna][zvolenaHodina - 1]);
+            Console.WriteLine("...");
+            Thread.Sleep(1000);
+            Console.WriteLine("stlac enter pre pokracovanie");
+        }
     }
 
     Console.ReadKey();

@@ -1,23 +1,17 @@
 ﻿<Properties StartupConfiguration="{B20B0121-AFF2-44C7-AD37-A907AA3E66E1}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.projekt_220programko FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program (copy).cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="25" Column="51" />
-      <File FileName="rozvrhAT.txt" Line="5" Column="16" />
-      <File FileName="rozvrhAI.txt" />
-      <File FileName="rozvrhAM.txt" />
-      <File FileName="rozvrhAE.txt" />
-      <File FileName="Program (copy).cs" Line="20" Column="37" />
+      <File FileName="Program.cs" Line="241" Column="2" />
+      <File FileName="rozvrhAT.txt" Line="5" Column="11" />
+      <File FileName="rozvrhAI.txt" Line="1" Column="1" />
+      <File FileName="rozvrhAM.txt" Line="1" Column="1" />
+      <File FileName="rozvrhAE.txt" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="projekt programko">
-            <Node name="projekt programko" expanded="True">
-              <Node name="Program (copy).cs" selected="True" />
-            </Node>
+            <Node name="projekt programko" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -27,4 +21,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.projekt_220programko PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
